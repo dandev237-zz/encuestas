@@ -1,7 +1,7 @@
 /**
  * Implementación del problema de las encuestas en Java.
  * 
- * Se han realizado el mismo número de encuestas en dos
+ * Enunciado: Se han realizado el mismo número de encuestas en dos
  * ciudades diferentes, habiéndose ordenado las encuestas
  * en cada una de las ciudades alfabéticamente por el
  * nombre de la calle. Se desea obtener un algoritmo Divide
@@ -17,7 +17,7 @@
  * Se hace tan solo una operación para recombinar las soluciones parciales: elevar el resultado a
  * la función que ha hecho la llamada recursiva.
  * 
- * Por el T.Maestro, para que el problema tenga complejidad O(log n), d = 0, lo que significa
+ * Por el Teorema Maestro, para que el problema tenga complejidad O(log n), d = 0, lo que significa
  * que la complejidad de combinar los subproblemas para encontrar la solución es constante (O(1)).
  * 
  * T(n) = T(n/2) + 1.
